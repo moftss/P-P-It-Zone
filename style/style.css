@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Pacifico&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(207, 22, 22);
+    font-size: 40px;
+    font-family: "Pacifico", cursive;
+    font-weight: 900;
+    text-align: left;
+    
+
+}
+h4{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;  
+  font-weight: 100;
+  position: absolute;
+  left: 188px;
+  top: 124px;
+  color: white;
+
+
+}
+.Parent{
+max-width: 1150px;
+margin: 0 auto;
+margin-top: 10px;
+display: flex;
+gap: 645px;
+align-items: center;
+justify-content: center;
+
+
+}
+.Iteam{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+border: 2px solid rgba(255, 255, 255, 0.1) ;
+border-radius: 48px;
+height: 65px;
+margin-top: 30px;
+padding-left: 8px;
+padding-right: 8px;
+
+    
+     
+}
+.button1{
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 46px;
+    padding: 8px 20px;
+    height: 38px;
+    width: 90px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: black;
+}
+h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact{
+    background-color: rgb(245, 13, 13);
+    margin-top: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.phoneicon{
+    margin-left: 50px;
+    color: white;
+    font-size: 25px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.contact h2{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.icon1{
+    font-size: 15px;
+}
+.icon2{
+    font-size: 23px;
+}
+.option{
+    background-color: white;
+    height: 35px;
+    width: 90px;
+    margin-left: 520px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.En{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Bn{
+    background-color: rgb(185, 10, 10);
+    height: 28px;
+    width: 32px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.Banner{
+    max-width: 1150px;
+    margin: 0 auto;
+    height: 550px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    
+}
+.Text{
+    width: 520px;
+}
+.Image{
+    width: 520px;
+    height: 450px;
+}
+.banner-title{
+width: 520px;
+height: 280px;
+font-family: "Inter", sans-serif;
+font-weight: 900;
+font-size: 65px;
+color: white;
+}
+.banner-sub{
+    height: 80px;
+    width: 520px;
+    font-family: Inter;
+    margin-top: 15px;
+    color: rgb(187, 175, 175);
+}
+.btn1, .btn2{
+    height: 55px;
+    width: 220px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: rgb(245, 13, 13);
+    border-radius: 42px;
+}
+.btn2{
+    height: 55px;
+    width: 220px;
+}
+.pannel-button{
+    display: flex;
+    gap: 15px;
+    margin-top: 28px;
+}
+.ex{
+    font-family: "Lobster", sans-serif;
+font-size: 80px;
+color: yellow;
+font-weight: 100;
+}
+.Image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.btn2:hover{
+   
+    color:rgb(245, 13, 13);
+    background-color: white;
+    cursor: progress;
+}
+
+.btn1:hover{
+    color:rgb(245, 13, 13);
+    background-color: white;
+    cursor: progress;
+}
+
+.button1:hover{
+    background-color:yellow ;
+    color: red;
+    cursor: progress;
+}
+h2:hover{
+    color: yellow;
+    cursor:grab;
+}
